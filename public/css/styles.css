@@ -17,3 +17,25 @@
     letter-spacing: 0.05rem;
     padding: 0.75rem 1rem;
   }
+
+
+  .input-icon {
+    position: relative;
+    display: block;
+  }
+  
+  .input-icon input {
+    padding-left: 30px; /* Espacio para el ícono */
+  }
+  
+  .input-icon::before {
+    content: "\f007"; /* Código del ícono de Font Awesome */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; /* Para los íconos sólidos de Font Awesome */
+    position: absolute;
+    left: 10px;
+    top: 65%;
+    transform: translateY(-50%);
+    color: #555;
+  }
+  
